@@ -64,15 +64,15 @@ public class DataGenerator {
         }
 
         public static DataInfo invalidLoginUser() {
-            DataInfo user = new DataInfo("login", "password", "active");
+            DataInfo user = new DataInfo("loginInv", "password", "active");
             usersRegistration(user);
             return new DataInfo(generateLogin(), "password", "active");
         }
 
         public static DataInfo invalidPasswordUser() {
-            DataInfo user = new DataInfo("login", "password", "active");
+            DataInfo user = new DataInfo("loginVal", "password", "active");
             usersRegistration(user);
-            return new DataInfo("login", generatePassword(), "active");
+            return new DataInfo("loginVal", generatePassword(), "active");
         }
     }
 
