@@ -81,17 +81,5 @@ public class DataGenerator {
         String login;
         String password;
         String status;
-
-        public String getLogin() {
-            return login;
-        }
-
-        public String getPassword() {
-            return password;
-        }
-
-        public String getStatus() {
-            return status;
-        }
     }
 }
